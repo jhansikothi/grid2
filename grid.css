@@ -1,0 +1,280 @@
+.parent{
+    display:grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-rows: 1fr,1fr,1fr,1fr,1fr,1fr;
+    grid-template-columns:1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr;
+    height: 400px;
+    width:80%;
+    margin-left:10% ;
+    margin-top: 5%;
+    font-weight: 50;
+    font-size: 20px;
+
+
+} 
+.child1{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+    
+}
+.child2{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+
+}
+.child3{
+    grid-column-start: 7;
+    grid-column-end:13;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child5{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child6{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child7{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child8{
+    grid-column-start: 4 ;
+    grid-column-end:7;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child9{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child10{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+
+}
+.child11{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child12{
+    grid-column-start: 3;
+    grid-column-end:5 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child13{
+    grid-column-start: 5;
+    grid-column-end:7;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child14{
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+
+}
+.child15{
+    grid-column-start:9 ;
+    grid-column-end:11 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child16{
+    grid-column-start:11;
+    grid-column-end:13 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child17{
+    grid-column-start:1;
+    grid-column-end:2;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child18{
+    grid-column-start:2;
+    grid-column-end:3 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child19{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child20{
+    grid-column-start:4;
+    grid-column-end:5;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child21{
+    grid-column-start:5;
+    grid-column-end:6 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child22{
+    grid-column-start:6;
+    grid-column-end:7 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child23{
+    grid-column-start:7;
+    grid-column-end:8;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child24{
+    grid-column-start:8;
+    grid-column-end:9 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.child25{
+    grid-column-start:9;
+    grid-column-end:10 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.child26{
+    grid-column-start:10;
+    grid-column-end:11 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.child27{
+    grid-column-start:11;
+    grid-column-end:12 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.child28{
+    grid-column-start:12;
+    grid-column-end:13 ;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+
+
+
+
+
